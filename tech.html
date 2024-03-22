@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Community</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            background: #264653;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            width: 1000px;
+            height: 400px;
+            background: #fff;
+            margin: 120px auto;
+            display: flex;
+        }
+
+        .col {
+            position: relative;
+            height: 100%;
+            flex: 1;
+            color: #fff;
+            box-sizing: border-box;
+            padding: 25px;
+            transition: 0.6s ease;
+        }
+
+        .col:nth-child(1) {
+            background-color: #cdb4db;
+        }
+
+        .col:nth-child(2) {
+            background-color: #ffafcc;
+        }
+
+        .col:nth-child(3) {
+            background-color: #a2d2ff;
+        }
+
+        .col h2 {
+            text-align: center;
+            font-size: 25px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .caption {
+            max-width: 230px;
+            font-size: 12px;
+            margin: 28px 0;
+            display: none;
+            animation: 0.6s;
+        }
+
+        .caption button {
+            border: 1px solid #fff;
+            background-color: transparent;
+            outline: none;
+            padding: 8px 18px;
+            color: #fff;
+            border-radius: 30px;
+            margin-top: 20px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+
+        .col img {
+            width: 200px;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+
+        .col:hover {
+            flex-grow: 2.5;
+        }
+
+        .col:hover .caption {
+            display: block;
+        }
+
+        .col:hover h2 {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="col">
+            <h2>AI And ML</h2>
+            <div class="caption">
+                <p>"Embark on an exhilarating journey into the future of technology by joining our vibrant community of AI and ML enthusiasts. Together, we unlock the secrets of artificial intelligence and machine learning, shaping tomorrow's world with innovation, curiosity, and endless possibilities. Join us at the forefront of technological evolution and be part of the revolution that is transforming industries, shaping societies, and redefining human potential."</p>
+                <button type="button">Know More</button>
+            </div>
+            <img src="assets/Communtiy_img/technical_AI.png" style="width:180px;">
+        </div>
+        <div class="col">
+            <h2>Tech Startups and Entrepreneurship</h2>
+            <div class="caption">
+                <p>"our dynamic community of tech startups and entrepreneurs. Together, let's redefine industries, drive innovation, and pave the way for groundbreaking success. Dive into a world of growth, collaboration, and endless possibilities."</p>
+                <button type="button">Know More</button>
+            </div>
+            <img src="assets/Communtiy_img/technical_tech_startup.png" style="width:240px;">
+        </div>
+        <div class="col">
+            <h2> Cybersecurity</h2>
+            <div class="caption">
+                <p>"our cybersecurity community and be part of a collective mission to safeguard the digital world. Together, we tackle the evolving threats, defend against cyber attacks, and protect the integrity of data and systems. Dive into a world of innovation, collaboration, and endless opportunities to make a difference in the ever-changing landscape of cybersecurity."</p>
+                <button type="button">Know More</button>
+            </div>
+            <img src="assets/Communtiy_img/technical_tech_startup.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
