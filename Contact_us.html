@@ -4,42 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <title>Contact Us</title>
 </head>
 <body>
-    <div id="container" >
-        <header>
-            <div id="logo">
-                <a href="Index.html"><img src="Photos\logo-removebg-preview.png" class="logo"></a>
-            </div>
-        
-            <!-- <h1>ASAA</h1> -->
-        </header>
-    <div class="header">
-        <nav>
-        
-            <div  id="nav-bar">
-                <ul>
-                    <li><a href="Before_login.html">Home</a></li>
-                </ul>        
-            </div>
-            <div>
-    <h1 class="subscribe">Reach us for Queries!</h1>            
-    <section class="main-content">
-        <form action="#" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="assets/website_logo.png" class="logo"></a>
+        </div>
+    </header>
+    <nav>
+        <div id="nav-bar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>        
+        </div>
+    </nav>
+    <div class="container">
+        <h1 class="animate__animated animate__fadeInDown">Reach us for Queries!</h1>
+        <section class="main-content">
+            <form action="#" method="post">
+                <label for="name" class="animate__animated animate__fadeInLeft">Name:</label>
+                <input type="text" id="name" name="name" required class="animate__animated animate__fadeInRight">
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+                <label for="email" class="animate__animated animate__fadeInLeft">Email:</label>
+                <input type="email" id="email" name="email" required class="animate__animated animate__fadeInRight">
 
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
+                <label for="message" class="animate__animated animate__fadeInLeft">Message:</label>
+                <textarea id="message" name="message" rows="4" required class="animate__animated animate__fadeInRight"></textarea>
 
-            <button type="submit" onclick="alert('Submitted Successfully')">Submit</button>
-        </form>
-    </section>
-            </div>
+                <button type="submit" class="animate__animated animate__fadeInUp" onclick="alert('Submitted Successfully')">Submit</button>
+            </form>
+        </section>
+    </div>
     <footer>
         <p>&copy; 2023 Your Company. All rights reserved.</p>
     </footer>

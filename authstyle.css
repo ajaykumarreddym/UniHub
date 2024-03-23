@@ -8,7 +8,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background: url("assets/login_bag.avif");
+    background:linear-gradient(rgb(242, 176, 117) 39%, rgb(129, 175, 213) 100%);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
