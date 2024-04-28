@@ -1,10 +1,28 @@
 /* Additional CSS styles */
 
 body {
-    background-image: url("https://ideogram.ai/api/images/direct/vqjXv1nxQMah2rLJHt6Vdw.jpg");
+    /* background-image: url("https://ideogram.ai/api/images/direct/vqjXv1nxQMah2rLJHt6Vdw.jpg"); */
     background-position: center;
     overflow: hidden;
 }
+header .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    }
+
+    header a img {
+    width: 130px; 
+    display: block; 
+    }
+
+
+    header {
+    height: 100px; 
+    padding: 10px 0;
+    }
+
 
 .container {
     position: absolute;
