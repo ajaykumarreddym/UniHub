@@ -501,3 +501,33 @@ lottie-player {
     width: 200px; /* Adjust the size as needed */
     height: 200px;
 }
+
+
+/* Add this CSS code to your existing home_dashboard.css file or create a new CSS file for it */
+
+header .center-nav a {
+    text-decoration: none;
+    margin: 10px 20px;
+    font-weight: 600;
+    color: #000000;
+    position: relative; /* Ensure proper positioning for the pseudo-element */
+}
+
+header .center-nav a::after {
+    content: ""; /* Create a pseudo-element */
+    position: absolute;
+    bottom: -3px; /* Adjust the position of the line */
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #000000;
+    transition: width 0.3s ease; /* Add transition effect */
+}
+
+header .center-nav a:hover::after {
+    width: 100%; /* Expand the line on hover */
+}
+
+header .center-nav a:last-child {
+    margin-right: 0; /* Adjust margin for the last link */
+}
